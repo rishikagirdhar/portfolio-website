@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    text-align: center;
+    font-style:oblique;
+    background: -webkit-linear-gradient(#c1c5dc, #7757eb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sidebar{
+    background-color: rgb(142, 136, 173);
+    width: 10vw;
+    height: 100vh;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.sidebar nav{
+    text-align: right;
+    padding-right: 8%;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+.sidebar nav li{
+    list-style:none;
+    padding-top: 40%;
+}
+
+.main{
+    background-color: rgb(211, 211, 211);
+    width: 90vw;
+}
+
+.container{
+    display:flex;
+}
+
+.info{
+    /* background-image: radial-gradient(circle, black 30%, rgb(18, 18, 18) 20%,black 30%,gray 50%, grey 80%); */
+    background-color: black;
+    color: white;
+    height: 65vh;
+    width: 80vw;
+    margin: 110px auto;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 6px 6px 10px rgb(107, 104, 104);
+}
+
+.dev{
+    display: flex;
+
+}
+
+.devpic{
+    width: 15vw;
+    align-self:center;
+}
+
+.devpic img{
+    width: 200px;
+    height: 200px;
+    margin: 16%;
+    padding: 2%;
+    border-radius: 50%;
+    border-color: white;
+    border: 3px solid;
+    transition-duration: 0.5s;
+}
+
+.devpic img:hover{
+    border-color: cornflowerblue;
+    padding: 7%;
+}
+
+.devinfo{
+    margin: 5%;
+    align-self: center;
+    vertical-align: middle;
+}
+
+.hello{
+font-size: 50px;
+}
+
+.about{
+font-size: 30px;
+}
+
+.course{
+font-size: 25px;
+}
+
+.buttons{
+
+}
